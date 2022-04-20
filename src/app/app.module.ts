@@ -7,6 +7,11 @@ import { RegisterComponent } from './register/register.component';
 import { LoginComponent } from './login/login.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { CustomerDashboardComponent } from './customer-dashboard/customer-dashboard.component';
+import { EnquiryformComponent } from './enquiryform/enquiryform.component';
+import { EnquirydetailComponent } from './enquirydetail/enquirydetail.component';
+import { QuotationdetailComponent } from './quotationdetail/quotationdetail.component';
+import { AdmindashboardComponent } from './admindashboard/admindashboard.component';
+import { AddquotationComponent } from './addquotation/addquotation.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +19,12 @@ import { CustomerDashboardComponent } from './customer-dashboard/customer-dashbo
     RegisterComponent,
     LoginComponent,
     SidebarComponent,
-    CustomerDashboardComponent
+    CustomerDashboardComponent,
+    EnquiryformComponent,
+    EnquirydetailComponent,
+    QuotationdetailComponent,
+    AdmindashboardComponent,
+    AddquotationComponent
   ],
   imports: [
     BrowserModule,
