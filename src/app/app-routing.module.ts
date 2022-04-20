@@ -19,3 +19,5 @@ const routes: Routes = [{path: 'signup', component: RegisterComponent}, {path: '
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
+
+console.log("222222222222222")
